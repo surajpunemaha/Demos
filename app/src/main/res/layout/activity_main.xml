@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/btn_moveImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Image demo"/>
+
+    <Button
+        android:id="@+id/btn_resizeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resize Image"/>
+
+    <Button
+        android:id="@+id/btn_photoEditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Photo Editor" />
+
+    <Button
+        android:id="@+id/btn_directoryBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directory Browser" />
+
+</LinearLayout>
